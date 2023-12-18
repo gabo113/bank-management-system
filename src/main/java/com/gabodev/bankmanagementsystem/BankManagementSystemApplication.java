@@ -9,7 +9,8 @@ public class BankManagementSystemApplication extends JFrame {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankManagementSystemApplication.class, args);
-		new Login();
+		//new Login();
+		new SignupOne();
 		System.out.print("WORKING");
 
 	}
